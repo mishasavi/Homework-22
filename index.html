@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 22</title>
+    <script src="./js/utlis.js" defer></script>
+    <script src="./js/employee.js" defer></script>
+    <script src="./js/company.js" defer></script>
+    <script src="./js/script.js" defer>
+        // TODO CSS
+    </script>
+</head>
+<body>
+<div>
+    <label>ID:
+        <input type="text" id="employeeId">
+    </label>
+    <label>First name:
+        <input type="text" id="firstName">
+    </label>
+    <label>Last name:
+        <input type="text" id="lastName">
+    </label>
+    <label>Birth Date:
+        <input type="date" id="date">
+    </label>
+    <label>Salary:
+        <input type="number" id="salary" min="5000">
+    </label>
+</div>
+<div>
+    <button id="addPerson">Add person</button>
+    <button id="calcStats">Get Stats</button>
+</div>
+
+    <h2>Stats</h2>
+<div id="stats">
+</div>
+<div>
+    <h2>Employees</h2>
+    <ol id="employeesList"></ol>
+</div>
+
+</body>
+</html>
